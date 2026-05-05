@@ -25,27 +25,7 @@ The business impact was direct: wasted ad spend, low purchase conversion rates, 
 
 This project follows a structured, 4-phase end-to-end data analysis workflow — from raw data discovery to interactive business dashboards.
 
-```
-┌─────────────────────┐     ┌──────────────────────────┐     ┌──────────────────────────┐     ┌─────────────────────┐
-│                     │     │                          │     │                          │     │                     │
-│  01                 │     │  02                      │     │  03                      │     │  04                 │
-│  Finding the        │────▶│  Data Cleaning &         │────▶│  Loading Data into       │────▶│  Data               │
-│  Ideal Data         │     │  Standardization using AI│     │  Power BI & Creating     │     │  Visualization      │
-│                     │     │                          │     │  DAX Measures            │     │                     │
-└─────────────────────┘     └──────────────────────────┘     └──────────────────────────┘     └─────────────────────┘
-  Identify and collect         Use AI to detect errors,         Import cleaned data into        Create interactive
-  relevant, high-quality       remove duplicates, handle        Power BI and build DAX          dashboards and
-  data from trusted sources.   missing values, and              measures to create powerful     visualizations that
-                               standardize data.                analytical calculations.        turn data into
-                                                                                                clear insights.
-```
-
-| Phase | What Was Done |
-|---|---|
-| **01 — Finding the Ideal Data** | Sourced a Meta Ads performance dataset modelled after real Facebook/Instagram ad platform data, covering 4 tables: `ad_events`, `ads`, `campaigns`, and `users` — across 216K impressions and 2.54M in total budget |
-| **02 — Data Cleaning & Standardization using AI** | Applied AI-assisted data cleaning best practices to resolve missing values, duplicates, inconsistent categories, outliers, timestamp errors, misclassified event types, and orphaned foreign key records |
-| **03 — Loading into Power BI & DAX Measures** | Imported cleaned tables into Power BI, designed a star-schema data model, built a Date Table for time intelligence, and engineered 12 dynamic DAX KPI measures |
-| **04 — Data Visualization** | Designed a fully interactive single-page dashboard with 10+ visuals including funnel analysis, demographic breakdowns, geographic mapping, time-series trends, and campaign-tier scatter analysis |
+<img width="1000" height="529" alt="architecture" src="https://github.com/user-attachments/assets/26e03f0b-4b55-440b-a8d0-cdf7e495a900" />
 
 > **Outcome:** Better Decisions · Data-Driven Insights · Accuracy & Consistency · Business Impact
 
