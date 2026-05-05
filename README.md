@@ -20,6 +20,10 @@ A marketing team running paid campaigns on Facebook and Instagram lacked a unifi
 The business impact was direct: wasted ad spend, low purchase conversion rates, and a marketing strategy flying partially blind. This project was built to solve all four problems in a single, decision-ready dashboard.
 
 ---
+## 🏗️ Project Architecture
+This project follows a structured, 4-phase end-to-end data analysis workflow — from raw data discovery to interactive business dashboards.
+<img width="1693" height="929" alt="ChatGPT Image May 5, 2026, 10_46_52 AM" src="https://github.com/user-attachments/assets/2f8a6dc1-0bdd-4b66-b5cf-368e524cd5aa" />
+
 
 ## 🔬 Methodology
 
